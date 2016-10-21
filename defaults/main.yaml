@@ -10,3 +10,6 @@ ros_apt_package_uri: "http://packages.ros.org/ros/ubuntu"
 
 # Set ROS repository apt-key
 ros_apt_keyserver: "hkp://ha.pool.sks-keyservers.net"
+
+# Do not actually install anything (only configure)
+ros_no_install: True
