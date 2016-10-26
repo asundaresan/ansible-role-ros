@@ -11,7 +11,7 @@
     state: present
     update_cache: yes
 
-- name: Install desired ROS meta-package
+- name: Install desired ROS meta-package ( {{ ros_package }} )
   apt:
     pkg: "ros-{{ ros_release }}-{{ ros_package }}"
     state: present
